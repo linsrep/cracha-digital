@@ -1,10 +1,10 @@
 const LinksSocialMedia = {
-  github: 'iwasrep',
+  github: '',
   youtube: '',
-  facebook: 'iwasrep',
-  instagram: 'iwasrep_',
-  twitter: 'diogolins018',
-  linkedin: 'iwasbr'
+  facebook: '',
+  instagram: '',
+  twitter: '',
+  linkedin: ''
 }
 
 /** MOSTRANDO CARD DO GITHUB */
@@ -27,19 +27,14 @@ if (LinksSocialMedia.github)
 
 /** CARREGAR REDES SOCIAIS */
 function changeSocialMediaLinks() {
-  for (let li of socialLinks.children) {
-    const social = li.getAttribute('class')
+  const size = Object.keys(LinksSocialMedia).length
+  const obj = Object.keys(LinksSocialMedia)
+  const lista = document.querySelector('#socialLinks')
 
-    const url = social;
-
-    li.children[0].href = `https://${url}.com/${LinksSocialMedia[social]}`
+  for (let i = 0; i < size; i++) {
+    let social = `<li class="social-icons-${obj[i]}"><a href="https://${obj[i]}.com/${LinksSocialMedia[obj[i]]}" target="_blank"><i class="icon-social-${obj[i]}"></i></a></li>`;
+    lista.innerHTML += social
   }
-
-  console.log(LinksSocialMedia)
-
-  /* const social = `<li class="social-icons-youtube"><a href="https://youtube.com/iwasrep" target="_blank"><i class="icon-social-youtube"></i></a></li>`;
-
-  socialLinks.textContent = social; */
 }
 
 changeSocialMediaLinks()
