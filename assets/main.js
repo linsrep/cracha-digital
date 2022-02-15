@@ -4,7 +4,9 @@ const LinksSocialMedia = {
   facebook: '',
   instagram: '',
   twitter: '',
-  linkedin: ''
+  linkedin: '',
+  reddit: '',
+  skype: ''
 }
 
 /** MOSTRANDO CARD DO GITHUB */
