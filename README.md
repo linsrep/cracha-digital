@@ -1,14 +1,14 @@
-![Imagem Background](https://github.com/iwasrep/cracha-digital/blob/master/assets/images/background-readme.png?raw=true)
-
 # Crachá Digital Modelo
 
-- Template modelo para um crachá digital.
+- Template modelo para um crachá digital com dados do GitHub e com link das redes sociais
 
-## Como usar?
+## 🚀 Como usar?
 - Acesse o arquivo main.js que está dentro de assets.
 - Em LinksSocialMedia, adicione suas informações
 
-## Pronto, está funcionando!
+## 🔗 Link do Projeto
+Graças ao GitHub Pages! [https://linsrep.github.io/cracha-digital/]
 
-# Link do Projeto
-Graças ao GitHub Pages! [https://iwasrep.github.io/cracha-digital/]
+## 🔑 Licença
+
+Desenvolvido por [Diogo Oliveira Lins](https://goatech.com.br)

@@ -1,10 +1,9 @@
 const LinksSocialMedia = {
-  github: 'iwasrep',
-  youtube: '',
-  facebook: '',
-  instagram: '',
-  twitter: '',
-  linkedin: '',
+  github: 'linsrep',
+  youtube: '@diogolinsdrack',
+  facebook: 'diogolinsdrack',
+  instagram: 'diogolinsdrack',
+  linkedin: 'in/' + 'dolwebdesign',
 }
 
 /** MOSTRANDO CARD DO GITHUB */
