@@ -1,4 +1,4 @@
-# Crachá Digital Modelo
+# Crachá Digital Modelo 2024
 
 - Template modelo para um crachá digital com dados do GitHub e com link das redes sociais
 
